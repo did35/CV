@@ -1,5 +1,6 @@
 
 body {
+  color: #40514E;
   margin: 0;
   text-align: center;
   font-family: 'Merriweather Sans', sans-serif;
@@ -17,6 +18,7 @@ h2 {
   color: #66BFBF;
   font-family: 'Montserrat', sans-serif;
   font-weight: normal;
+  padding-bottom: 10px;
 }
 h3 {
   color: #11999E;
@@ -31,10 +33,16 @@ hr {
   border-style: dotted;
   border-width: 0 0 20px 0;
   width: 15%;
-
+}
+p {
+  line-height: 2;
 }
 .profile {
   margin-bottom: 100px;
+}
+.intro {
+  width: 35%;
+  margin: auto;
 }
 
 .top-container {
@@ -43,7 +51,7 @@ hr {
   padding-top: 100px;
 }
 .middle-container {
-
+  margin: 100px 0;
 }
 .bottom-container {
   height: 150px;
@@ -65,7 +73,6 @@ hr {
   width: 50%;
   margin: 100px auto 100px auto;
   text-align: left;
-  line-height: 2;
 }
 .pilot-img {
   border-radius: 30px;
@@ -94,7 +101,7 @@ hr {
   -webkit-border-radius: 28;
   -moz-border-radius: 28;
   border-radius: 28px;
-  font-family: Arial;
+  font-family: 'Montserrat', sans-serif;
   color: #ffffff;
   font-size: 20px;
   padding: 10px 20px 10px 20px;
@@ -112,8 +119,12 @@ hr {
 .footer-link {
   color: #11999E;
   padding: 20px;
+  text-decoration: none;
+}
+.footer-link:hover {
+  color: #EAF6F6;
 }
 .copyRight {
-  color: white;
+  color: #EAF6F6;
   margin-top: 50px;
 }
